@@ -1,2 +1,1 @@
-
-`
+my static website
