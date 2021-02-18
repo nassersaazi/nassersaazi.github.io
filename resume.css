@@ -1,20 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-:root {
-  --mainColor: #edf3f8;
-  --secondaryColor: rgb(246, 251, 255);
 
-  --borderColor: #c1c1c1;
-
-  --mainText: black;
-  --secondaryText: #4b5156;
-
-  --themeDotBorder: #24292e;
-
-  --previewBg: rgba(175, 244, 247, 0.4);
-  --previewShadow: rgba(175, 244, 247, 0.4);
-
-  --buttonColor: #333;
-}
 
 html,
 body {
@@ -65,10 +50,12 @@ strong{
 .left-section {
     grid-area: left-section;
     border-right: 5px solid #f5f5f5;
+    align-self: center;
 }
 
 .right-section {
     grid-area: right-section;
+    align-self: center;
 }
 
 .left-section,.right-section {
