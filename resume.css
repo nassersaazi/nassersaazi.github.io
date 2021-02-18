@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+:root {
+  --mainColor: #edf3f8;
+  --secondaryColor: rgb(246, 251, 255);
 
+  --borderColor: #c1c1c1;
+
+  --mainText: black;
+  --secondaryText: #4b5156;
+
+  --themeDotBorder: #24292e;
+
+  --previewBg: rgba(175, 244, 247, 0.4);
+  --previewShadow: rgba(175, 244, 247, 0.4);
+
+  --buttonColor: #333;
+}
 
 html,
 body {
@@ -16,9 +31,9 @@ body {
   padding: 0 2.5rem;
 
   display: grid;
-	grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr; 
-	grid-template-areas: 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr; 
+  grid-template-areas: 
 		'top-section top-section'
 		'left-section right-section'
 	;
@@ -61,7 +76,7 @@ strong{
 .left-section,.right-section {
     margin: 0 1rem;
     padding: 0 2rem ;
-    
+    /* margin-bottom: 20rem; */
 }
 
 #profile_pic{
