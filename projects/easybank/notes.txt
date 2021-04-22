@@ -8,6 +8,10 @@ are good online resources
 querySelector gets first element while querySelectorAll gets all elements
 -overflow :hidden disables scrolling
 
+classes in css have higher hierarchical importance than elements
+
+what are pseudoelements?
+
 TODOs
 - check out the difference between position fixed, relative and absolute and 
     when to use them

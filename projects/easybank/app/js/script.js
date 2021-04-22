@@ -12,7 +12,7 @@ btnHamburger.addEventListener('click', function(){
         body.classList.remove('no-scroll');
         header.classList.remove('open');// close hamburger menu
         fadeElems.forEach(function (element) {
-            element.classList.remove('fade-in');
+            element.classList.remove('fade-in'); 
             element.classList.add('fade-out');
         })
         overlay.classList.remove('fade-in')
