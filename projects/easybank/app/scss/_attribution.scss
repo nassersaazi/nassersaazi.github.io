@@ -1,0 +1,16 @@
+.attribution {
+    background-color: $darkBlue;
+    text-align: center;
+
+    a {
+        color: $white;
+        line-height: 2.25;
+           
+        transition: color 150ms ease-in-out;
+        &:hover {
+            color: $limeGreen;
+        }
+    }
+
+    
+}
