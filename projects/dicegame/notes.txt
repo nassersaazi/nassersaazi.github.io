@@ -1,0 +1,9 @@
+27/04/2021
+
+A callback function -- a function passed into another function as an argument
+An anonymous function -- a function that doesn't have a name and therefore can't be reused
+
+TODO: 
+
+Create a repository called Technical Stuff
+ -Should contain readme's of different coding stuff i learn and share on twitter

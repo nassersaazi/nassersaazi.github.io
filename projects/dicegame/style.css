@@ -126,12 +126,23 @@ main {
 .btn::first-letter {
   font-size: 2.4rem;
   display: inline-block;
-  margin-right: 0.7rem;
 }
 
 .btn--new {
   top: 4rem;
+  color: #fff;
+  background-image: linear-gradient(to right, #a672b1 0%, #bf2e34 100%);
+  
 }
+
+.btn--rules {
+  bottom: 1rem;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  color: #fff;
+
+}
+
+
 .btn--roll {
   top: 39.3rem;
 }
