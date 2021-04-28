@@ -1,6 +1,6 @@
 27/04/2021
 
-A callback function -- a function passed into another function as an argument
+A callback function -- a function passed into another function as an argument(IT SHOULD NOT HAVE BRACKETS!)
 An anonymous function -- a function that doesn't have a name and therefore can't be reused
 
 TODO: 
