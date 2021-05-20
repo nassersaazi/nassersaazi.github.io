@@ -23,7 +23,11 @@ body {
   padding: 0;
   margin: 1rem 2rem;
   font-family: "Open Sans", sans-serif;
+<<<<<<< HEAD
   font-size: large;
+=======
+  font-size: larger;
+>>>>>>> b8dc58fc3cd8c8e613446920247a824d8e6213b6
 }
 
 p {
@@ -61,12 +65,19 @@ header {
 }
 
 .right {
+<<<<<<< HEAD
   align-self: flex-end;
+=======
+  text-align: right;
+>>>>>>> b8dc58fc3cd8c8e613446920247a824d8e6213b6
 }
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8dc58fc3cd8c8e613446920247a824d8e6213b6
 .left-section li {
     list-style-type: square;
     padding: 0.2rem;
@@ -133,7 +144,10 @@ a {
     text-align: center;  
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8dc58fc3cd8c8e613446920247a824d8e6213b6
   p {
     margin: 8px ;
   }
