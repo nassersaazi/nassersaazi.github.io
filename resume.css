@@ -1,0 +1,159 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+  --mainColor: #edf3f8;
+  --secondaryColor: rgb(246, 251, 255);
+
+  --borderColor: #c1c1c1;
+
+  --mainText: black;
+  --secondaryText: #4b5156;
+
+  --themeDotBorder: #24292e;
+
+  --previewBg: rgba(175, 244, 247, 0.4);
+  --previewShadow: rgba(175, 244, 247, 0.4);
+
+  --buttonColor: #333;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 1rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+}
+
+p {
+  margin: 8px ;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 2.5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "top-section top-section"
+    "left-section right-section";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.middle {
+  text-align: center;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+
+
+
+.left-section li {
+    list-style-type: square;
+    padding: 0.2rem;
+    
+}
+
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+
+.top-section {
+  grid-area: top-section;
+  padding: 2rem;
+  border-bottom: 5px solid #f5f5f5;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-self: center;
+}
+
+.left-section {
+  grid-area: left-section;
+  border-right: 5px solid #f5f5f5;
+  align-self: center;
+}
+
+.right-section {
+  grid-area: right-section;
+  align-self: center;
+}
+
+.left-section,
+.right-section {
+  margin: 0 1rem;
+  padding: 0 2rem;
+  /* margin-bottom: 20rem; */
+}
+
+#profile_pic {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--borderColor);
+}
+
+@media (max-width: 48rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right,.left,.middle {
+    text-align: center;  
+  }
+
+
+  p {
+    margin: 8px ;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .left-section {
+    border-right: 0px;
+    border-bottom: 5px solid #f5f5f5;
+  }
+
+  .left-section,
+  .right-section {
+    margin: 0 1rem;
+    padding: 0.6rem 0;
+    margin-bottom: 0px;
+  }
+}

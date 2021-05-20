@@ -1,0 +1,29 @@
+20/04/2021
+
+You cannot transform display block to display : none, adjust the opacity instead
+
+When doing frontend work, codepen.io, mozilla developer network ,css tricks
+are good online resources
+
+querySelector gets first element while querySelectorAll gets all elements
+-overflow :hidden disables scrolling(horizontal and vertical)
+
+classes in css have higher hierarchical importance than elements
+
+what are pseudoelements?
+
+25/04/21
+overflow-x: hidden (cuts out all content extending out of the bounds of the viewpoint
+ width and prevents horizontal scrolling)
+
+anchor elements are display: inline by default
+divs are by default display: block elements
+
+26/04/21
+-when in doubt about flexbox or css grid,css tricks is a good resource
+
+TODOs
+- check out the difference between position fixed, relative and absolute and 
+    when to use them
+-check out the difference between display block, inline-block and when to use them
+-find out more about closures in js and when they are used
